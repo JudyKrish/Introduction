@@ -23,6 +23,9 @@ public void Login() {
 	login.productLandingPage();
 	login.productToCart().click();
 	login.productInCart().click();
+	login.productQuantity();
+	login.quantityRaise().click();
+	
 	
 	
 		

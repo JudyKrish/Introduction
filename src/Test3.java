@@ -16,7 +16,7 @@ public class Test3 {
 	driver.manage().window().maximize();
 	driver.get(URL);	
 	
-	String expectedTitle = "Facebook - log in or sign up";
+	String expectedTitle = "Post on Facebook|Facebook";
 	String actualTitle = driver.getTitle();
 	System.out.println("Display " + actualTitle);
 	driver.quit();

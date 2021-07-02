@@ -15,10 +15,10 @@ public class Test2 {
 		
 		String URL = "https://amazon.com";
 		
-		By productLandingPage = By.xpath("//*[@id='search']/div[1]/div/div[1]/div/span[3]/div[2]/div[3]/div/div/div/div[2]/div[2]/div/div[1]/h2/a/span");
+		By productLandingPage = By.xpath("//*[@id='search']/div[1]/div/div[1]/div/span[3]/div[2]/div[3]/div/span/div/div/div[2]/div[2]/div/div[1]/h2/a/span");
 		By productSearch = By.id("twotabsearchtextbox");
 		By productSubmit = By.id("nav-search-submit-button");
-		By productToCart = By.xpath("//*[@id=\"mbc-buybutton-addtocart-1\"]/span/input");
+		By productToCart = By.xpath("//*[@id='a-autoid-17']/span/input");
 		By productInCart = By.xpath("//*[@id=\"nav-cart-count-container\"]");
 		
 		System.setProperty("webdriver.chrome.driver","C:\\ChromeDriver\\chromedriver.exe");
